@@ -2,25 +2,25 @@ package com.qa.helloworld;
 
 public class HelloWorld {
 	
-	public static void main(String[] args) {
-		printMessage("Hello World");
-		printOneMessage();
-		System.out.println(returnMessage());
-
-	}
-	
-	static String returnMessage() {
+//	public static void main(String[] args) {
+//		printMessage("Hello World");
+//		printOneMessage();
+//		System.out.println(returnMessage());
+//
+//	}
+//	
+	public String returnMessage() {
 		String message = "Gulp!";
 		return message;
 	}
 	
-	static void printOneMessage() {
+	public void printOneMessage() {
 		String message = "Ta da!";
 		System.out.println(message);
 		
 	}
 	
-	static void printMessage(String message) {
+	public void printMessage(String message) {
 
 		System.out.println(message);
 	}
