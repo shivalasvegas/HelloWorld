@@ -1,14 +1,18 @@
 package com.qa.helloworld;
 
+
+
 public class HelloWorld {
 	
-//	public static void main(String[] args) {
-//		printMessage("Hello World");
-//		printOneMessage();
-//		System.out.println(returnMessage());
-//
-//	}
-//	
+	public HelloWorld() {
+		
+	}
+
+	public void greetMessage() {
+	Greeting greetService1 = message ->
+    System.out.println("Hello " + message);
+    greetService1.sayMessage("Vin");
+	}
 	public String returnMessage() {
 		String message = "Gulp!";
 		return message;
