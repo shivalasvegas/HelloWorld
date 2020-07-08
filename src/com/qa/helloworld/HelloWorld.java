@@ -2,7 +2,7 @@ package com.qa.helloworld;
 
 import java.util.Scanner;
 
-public class HelloWorld {
+public class HelloWorld{
 	
 	private String message;
 	private Scanner scanMessage  = new Scanner(System.in);
@@ -24,25 +24,25 @@ public class HelloWorld {
 		
 	}
 	
-	public void greetMessage() {
-	Greeting greetService1 = message ->
-    System.out.println("Hello " + message);
-    greetService1.sayMessage("Frank");
-	}
+//	public void greetMessage() {
+////	Greeting greetService1 = message ->
+////    System.out.println("Hello " + message);
+////    greetService1.sayMessage("Frank");
+////	}
 	
 	public String returnMessage() {
-		String message = "Gulp!";
+		message = "Gulp!";
 		return message;
 	}
 	
 	public void printOneMessage() {
-		String message = "Ta da!";
+		message = "Ta da!";
 		System.out.println(message);
 		
 	}
 	
 	public void printMessage(String message) {
-
+		this.message = message;
 		System.out.println(message);
 	}
 
